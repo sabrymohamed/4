@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 100 100%27%3E%3Ctext y=%27.9em%27 font-size=%2790%27%3E%F0%9F%9A%80%3C/text%3E%3C/svg%3E">
+<title>تدريب العلوم للصف الثامن – الفصل الرابع – أسئلة إضافية</title>
+<link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;700&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#fffaf1;--ink:#1c1c1c;--bar:#cfe2f3;--bar-ink:#1f4e8c;--side:#25677d;--btn:#ffe8d2;--line:#e0a066;--green:#8ad04b;--org:#ff8c00;--ok:#bfe3a8;--bad:#f5b7b1;--foot:#b3e3f2;--card:#fff;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#1d2328;--ink:#f1f1f1;--bar:#21384f;--bar-ink:#cfe2f3;--btn:#3a3029;--card:#262d33;--foot:#1f4452;--ok:#2f5a2a;--bad:#6b2f2a}}
+:root[data-theme="dark"]{--bg:#1d2328;--ink:#f1f1f1;--bar:#21384f;--bar-ink:#cfe2f3;--btn:#3a3029;--card:#262d33;--foot:#1f4452;--ok:#2f5a2a;--bad:#6b2f2a}
+*{box-sizing:border-box}html,body{height:100%;margin:0}
+body{font-family:Tajawal,Tahoma,Arial,sans-serif;background:var(--bg);color:var(--ink);display:flex;flex-direction:column;font-size:18px}
+header{background:var(--bar);color:var(--bar-ink);padding:10px 16px;display:flex;justify-content:space-between;align-items:center;font-weight:700}
+.badge{background:#e8761a;color:#fff;border-radius:8px;padding:2px 10px;margin-inline-start:8px;font-size:15px}
+#timer{direction:ltr}
+.wrap{flex:1;display:flex;min-height:0}
+nav{background:var(--side);width:78px;padding:10px 0;overflow-y:auto;display:flex;flex-direction:column;gap:6px;align-items:center}
+nav .logo{background:#000;color:#fff;width:100%;text-align:center;padding:6px 0;font-family:serif}
+nav button{width:42px;height:32px;border-radius:6px;border:2px solid #000;background:var(--btn);color:#000;font:700 16px Tajawal,Tahoma,sans-serif;cursor:pointer}
+nav button.done{background:var(--org)}nav button.cur{outline:3px solid #fff}
+main{flex:1;padding:18px 24px;overflow-y:auto}
+.qh{display:flex;gap:14px;align-items:flex-start}
+.num{flex:none;width:50px;height:50px;border-radius:50%;background:var(--green);border:4px solid #f5c542;display:flex;align-items:center;justify-content:center;font-weight:700;font-size:22px;color:#000}
+.qt{font-size:22px;font-weight:700;line-height:1.7}
+.hint{color:#2f6b4a;font-weight:700;margin:6px 0 14px 0}
+.part{background:var(--card);border:1px solid #d9cdb8;border-radius:12px;padding:12px 16px;margin:10px 0}
+.pl{font-weight:700;margin-bottom:8px;line-height:1.7}
+.opts{display:flex;flex-wrap:wrap;gap:10px}
+.opt{background:var(--btn);border:3px solid #5aa84a;border-radius:12px;padding:8px 18px;font:inherit;color:inherit;cursor:pointer}
+.opt.sel{background:#9bc596;color:#000}
+.opt.right{background:var(--ok);border-color:#2e8b2e}.opt.wrong{background:var(--bad);border-color:#c0392b}
+footer{background:var(--foot);padding:10px;display:flex;gap:18px;justify-content:center}
+footer button{width:90px;height:42px;border-radius:20px;border:3px solid #8ccf4f;background:var(--btn);color:#1a56db;font-size:24px;cursor:pointer}
+.center{max-width:640px;margin:40px auto;text-align:center}
+.center h1{color:#1a56db;font-size:30px;margin:10px 0}.center h2{color:#c0392b;font-size:22px}
+.go{background:linear-gradient(#ffb347,#ff8c00);color:#fff;border:0;border-radius:22px;padding:10px 44px;font:700 24px Tajawal,Tahoma,sans-serif;cursor:pointer;margin-top:14px}
+input.nm{font:inherit;padding:10px;border-radius:8px;border:2px solid var(--line);width:80%;background:var(--card);color:var(--ink)}
+.rev{text-align:right;background:var(--card);border-radius:10px;padding:8px 14px;margin:8px 0;border-inline-start:6px solid #c0392b}
+.rev.ok{border-color:#2e8b2e}
+.score{font-size:46px;font-weight:700;color:#1a56db}
+.top1{background:linear-gradient(90deg,#ffe08a,#fff3c4,#ffe08a);background-size:200% 100%;animation:sh 3s linear infinite;color:#5a4300;border-radius:12px;padding:10px;font-size:20px;margin:10px 0}.bt{width:100%;border-collapse:collapse;background:var(--card);margin:8px 0}.bt td{padding:6px 10px;border-bottom:1px solid #d9cdb8}.bt tr:first-child{font-weight:700}@keyframes sh{to{background-position:-200% 0}}.cf{position:fixed;top:-20px;width:10px;height:14px;z-index:99;pointer-events:none;animation:fall linear forwards}@keyframes fall{to{transform:translateY(110vh) rotate(720deg)}}.pop{animation:pop .6s ease}@keyframes pop{0%{transform:scale(.6);opacity:0}70%{transform:scale(1.08)}100%{transform:scale(1);opacity:1}}.cele{background:#ffe08a;color:#5a4300;border-radius:14px;padding:12px;font-size:22px;font-weight:700;margin:10px 0}.tabs{display:flex;gap:10px;justify-content:center;flex-wrap:wrap;margin:12px 0}.pr{margin:4px 0}.g{color:#2e8b2e;font-weight:700}.b{color:#c0392b;font-weight:700}@media(prefers-reduced-motion:reduce){.cf{display:none}.top1{animation:none}}
+@media(max-width:640px){nav{width:50px}nav button{width:36px}main{padding:12px}.qt{font-size:19px}}
+</style>
+</head>
+<body>
+<header><span>تدريب العلوم للصف الثامن – الفصل الرابع – أسئلة إضافية<span class="badge">إضافي</span></span><span id="timer"></span></header>
+<div class="wrap" id="wrap"><main id="main"></main></div>
+<footer id="foot" style="display:none"><button id="prev" aria-label="السابق">→</button><button id="next" aria-label="التالي">←</button></footer>
+<script>
+const T=['صواب','خطأ'];
+const Q=[
+{t:'اقرأ العبارتين، ثم حدّد هل كل عبارة صواب أم خطأ.',h:'اختر صواب أو خطأ لكل عبارة',p:[{l:'جميع كواكب النظام الشمسي تدور حول الشمس.',o:T,a:0},{l:'جميع الأقمار تدور حول الشمس مباشرة وليس حول الكواكب.',o:T,a:1}]},
+{t:'أكمل الفراغ في الجملة التالية بالكلمة المناسبة.',h:'اختر الكلمة الصحيحة من القائمة',p:[{l:'تحدث ظاهرة المد والجزر بسبب ........ القمر للأرض.',o:['حرارة','جاذبية','ضوء','دوران'],a:1}]},
+{t:'لماذا لا توجد أقمار تدور حول كوكبي عطارد والزهرة؟',h:'اضغط الإجابة الصحيحة',p:[{o:['لأنهما بعيدان جدًا عن الشمس.','لأنهما الأقرب إلى الشمس وجاذبيتهما ضعيفة.','لأنهما أكبر الكواكب حجمًا.','لأن الشمس تمنع وجود الأقمار.'],a:1}]},
+{t:'أي ترتيب صحيح للشمس والأرض والقمر عند حدوث خسوف القمر؟',h:'اضغط الإجابة الصحيحة',p:[{o:['☀️ ← 🌕 ← 🌍','☀️ ← 🌍 ← 🌕','🌕 ← ☀️ ← 🌍','🌍 ← ☀️ ← 🌕'],a:1}]},
+{t:'صِل كل ظاهرة بسببها الصحيح.',h:'اختر السبب المناسب لكل ظاهرة',p:[{l:'تعاقب الليل والنهار',o:['جاذبية القمر','دوران الأرض حول محورها','ميل محور الأرض ودورانها حول الشمس'],a:1},{l:'الفصول الأربعة',o:['جاذبية القمر','دوران الأرض حول محورها','ميل محور الأرض ودورانها حول الشمس'],a:2},{l:'المد والجزر',o:['جاذبية القمر','دوران الأرض حول محورها','ميل محور الأرض ودورانها حول الشمس'],a:0}]},
+{t:'نرى القمر في أماكن مختلفة من السماء خلال الليلة الواحدة بسبب دوران ....... حول .......',h:'اختر الإجابة الصحيحة',p:[{o:['القمر حول الأرض','الأرض حول محورها','الأرض حول الشمس','القمر حول الشمس'],a:1}]},
+{t:'اعتمادًا على الجدول (عطارد: ٨٨ يومًا، الأرض: ٣٦٥ يومًا، المريخ: ٦٨٧ يومًا، المشتري: ١٢ سنة أرضية)، حدّد صحة كل عبارة. بُعد المريخ ٢٢٨ مليون كم والمشتري ٧٧٨ مليون كم.',h:'اختر صواب أو خطأ',p:[{l:'كوكب المشتري هو أطول الكواكب في الجدول سنةً.',o:T,a:0},{l:'كوكب عطارد يكمل دورة حول الشمس في ٨٨ يومًا أرضيًا.',o:T,a:0},{l:'كوكب المريخ أبعد عن الشمس من المشتري.',o:T,a:1}]},
+{t:'هل العبارة التالية صحيحة؟ (بعد الاختيار فسّر إجابتك شفهيًا)',h:'اختر صواب أو خطأ',n:'التفسير: مدارات الكواكب إهليجية (بيضاوية) وليست دائرية تمامًا، وأحجام الكواكب مختلفة.',p:[{l:'تدور الكواكب حول الشمس في مدارات دائرية تمامًا، وأحجامها جميعًا متساوية.',o:T,a:1}]},
+{t:'أي مما يلي يمثل ترتيب طبقات الأرض من السطح إلى المركز؟',h:'اضغط الإجابة الصحيحة',p:[{o:['القشرة ← الوشاح ← اللب الخارجي ← اللب الداخلي','الوشاح ← القشرة ← اللب الداخلي ← اللب الخارجي','اللب الداخلي ← اللب الخارجي ← الوشاح ← القشرة','القشرة ← اللب الخارجي ← الوشاح ← اللب الداخلي'],a:0}]},
+{t:'تُستخدم التلسكوبات في ........',h:'اضغط الإجابة الصحيحة',p:[{o:['رؤية الخلايا والكائنات الدقيقة','رصد النجوم والكواكب والأجرام البعيدة','قياس درجة الحرارة','قياس سرعة الرياح'],a:1}]},
+{t:'ماذا تسمى الظاهرة التي تحدث عندما يمر القمر بين الشمس والأرض؟',h:'اضغط الإجابة الصحيحة',p:[{o:['كسوف الشمس','خسوف القمر','المد والجزر','تعاقب الليل والنهار'],a:0}]},
+{t:'هل العبارة التالية صحيحة؟',h:'اختر صواب أو خطأ',p:[{l:'لو كان محور الأرض عموديًا تمامًا (غير مائل) لما حدثت الفصول الأربعة.',o:T,a:0}]},
+{t:'أكمل الجملة بالكلمتين المناسبتين.',h:'اختر الكلمات الصحيحة من القائمة',p:[{l:'القمر جرم ........',o:['مضيء','معتم'],a:1},{l:'لأنه ........ ضوء الشمس.',o:['يعكس','ينتج'],a:0}]},
+{t:'ما الكوكب الثالث من حيث البعد عن الشمس؟',h:'اضغط الإجابة الصحيحة',p:[{o:['عطارد','الزهرة','الأرض','المريخ'],a:2}]},
+{t:'حدّد صحة كل عبارة عن المذنب والنيزك.',h:'اختر صواب أو خطأ لكل عبارة',p:[{l:'المذنب جسم كبير من الجليد والصخور يدور حول الشمس في مدار إهليجي.',o:T,a:0},{l:'النيزك أكبر من المذنب ويدور حول الشمس.',o:T,a:1},{l:'يمكن رؤية مذنب هالي من الأرض كل ٧٦ عامًا.',o:T,a:0}]}
+];
+const D='٠١٢٣٤٥٦٧٨٩',ar=n=>String(n).replace(/\d/g,d=>D[d]);
+const esc=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const fmt=s=>ar(String(Math.floor(s/60)).padStart(2,'0')+':'+String(s%60).padStart(2,'0'));
+// ===== ضع هنا رابط Google Apps Script Web App بعد نشره (انظر README.md) =====
+const SHEET_URL='https://script.google.com/macros/s/AKfycbx0RoL0oLrUMSk3l4FwhFAazD8xk4qkfzPW5Y5mY30JDdDO30HjwANeLxbt6zR-jKZD/exec';
+const TOTAL=600,LK='tmss_enr_board';
+let W=[7,7,7,7,7,7,7,7,7,7,6,6,6,6,6],board=[],cur=0,ans=Q.map(q=>q.p.map(()=>null)),left=TOTAL,tid=null,name='',fin=false,last=null,msg='';
+const main=document.getElementById('main'),foot=document.getElementById('foot'),wrap=document.getElementById('wrap'),timer=document.getElementById('timer');
+const $=id=>document.getElementById(id);
+function locRows(){try{return JSON.parse(localStorage.getItem(LK)||'[]')}catch(e){return[]}}
+function topTen(list){const b={};list.forEach(r=>{if(!r||!r.name)return;const o=b[r.name];if(!o||r.score>o.score||(r.score===o.score&&r.secs<o.secs))b[r.name]=r});return Object.values(b).sort((x,y)=>y.score-x.score||x.secs-y.secs||(x.at||0)-(y.at||0)).slice(0,10)}
+function send(r){if(SHEET_URL){fetch(SHEET_URL,{method:'POST',mode:'no-cors',headers:{'Content-Type':'text/plain;charset=utf-8'},body:JSON.stringify(r)}).catch(()=>{})}else{try{const a=locRows();a.push(r);localStorage.setItem(LK,JSON.stringify(a.slice(-200)))}catch(e){}}}
+async function loadBoard(){
+ if(SHEET_URL){try{const j=await (await fetch(SHEET_URL+'?t='+Date.now())).json();if(Array.isArray(j.weights)&&j.weights.length===Q.length)W=j.weights.map(Number);board=j.top||[]}catch(e){}}
+ else board=topTen(locRows());
+ refreshBoard();
+}
+function boardHTML(){
+ if(!board.length)return '<p>لا توجد نتائج بعد. كن أول المتصدرين!</p>';
+ const m=['🥇','🥈','🥉'];
+ return '<div class="top1">👑 الطالب الأول: <b>'+esc(board[0].name)+'</b><br>أعلى درجة: '+ar(board[0].score)+' / ١٠٠</div><table class="bt"><tr><td></td><td>الاسم</td><td>الدرجة</td><td>الزمن</td></tr>'+board.map((r,i)=>'<tr><td>'+(m[i]||ar(i+1))+'</td><td>'+esc(r.name)+'</td><td>'+ar(r.score)+'</td><td>'+fmt(r.secs)+'</td></tr>').join('')+'</table>';
+}
+function refreshBoard(){const e=$('board');if(e)e.innerHTML=boardHTML()}
+function confetti(){const c=['#ff8c00','#f5c542','#8ad04b','#1a56db','#e8761a','#d63384'];for(let i=0;i<70;i++){const e=document.createElement('i');e.className='cf';e.style.cssText='left:'+Math.random()*100+'vw;background:'+c[i%6]+';animation-duration:'+(2+Math.random()*2.5)+'s;animation-delay:'+Math.random()*.8+'s';document.body.appendChild(e);setTimeout(()=>e.remove(),5500)}}
+function celebrate(){
+ const i=board.findIndex(r=>r.name===name);
+ msg=i<0?'💪 حاول مجددًا لتدخل لوحة الخبراء!':i===0?'🥇👑 مبروك! أنت الطالب الأول!':'🎉 مبروك! أنت في لوحة الخبراء بالمركز '+ar(i+1);
+ const e=$('cele');if(e){e.className='cele pop';e.textContent=msg}
+ if(i>=0)confetti();
+}
+function showTime(){timer.textContent=fmt(Math.max(left,0))}
+function tick(){left--;showTime();if(left<=0)finish()}
+function start(){
+ main.innerHTML='<div class="center"><div style="font-size:64px">🚀</div><h1>علوم الصف الثامن</h1><h2>الفصل الرابع: استكشاف الفضاء</h2><p>مرحلة الإثراء: ١٥ سؤالًا إضافيًا (١٠ دقائق)</p><input class="nm" id="nm" maxlength="40" value="'+esc(name)+'" placeholder="اسم الطالب"><br><button class="go" id="go">ابدأ</button><br><button class="opt" id="bb" style="margin-top:18px">🏆 لوحة الخبراء</button><div id="bw" style="display:none"><h3>🏆 لوحة الخبراء</h3><div id="board"></div></div></div>';
+ refreshBoard();
+ $('bb').onclick=()=>{const w=$('bw');w.style.display=w.style.display==='none'?'':'none'};
+ $('go').onclick=()=>{name=$('nm').value.trim().slice(0,40);if(!name){$('nm').focus();return}buildNav();foot.style.display='flex';left=TOTAL;fin=false;showTime();tid=setInterval(tick,1000);show(0)};
+}
+function buildNav(){
+ const nav=document.createElement('nav');nav.id='nav';nav.innerHTML='<div class="logo">TIMSS</div>';
+ Q.forEach((_,i)=>{const b=document.createElement('button');b.textContent=ar(i+1);b.onclick=()=>show(i);nav.appendChild(b)});
+ wrap.prepend(nav);
+}
+function show(i){
+ cur=i;const q=Q[i];
+ let h='<div class="qh"><div class="num">'+ar(i+1)+'</div><div class="qt">'+q.t+'</div></div><div class="hint">'+q.h+'</div>';
+ q.p.forEach((p,j)=>{h+='<div class="part">'+(p.l?'<div class="pl">'+p.l+'</div>':'')+'<div class="opts">'+p.o.map((o,k)=>'<button class="opt'+(ans[i][j]===k?' sel':'')+'" data-j="'+j+'" data-k="'+k+'">'+o+'</button>').join('')+'</div></div>'});
+ main.innerHTML=h;
+ main.querySelectorAll('.opt').forEach(b=>b.onclick=()=>{ans[i][+b.dataset.j]=+b.dataset.k;show(i)});
+ document.querySelectorAll('#nav button').forEach((b,n)=>{b.classList.toggle('cur',n===i);b.classList.toggle('done',ans[n].some(a=>a!==null))});
+ main.scrollTop=0;
+}
+$('next').onclick=()=>{if(cur<Q.length-1)show(cur+1);else if(confirm('هل تريد إنهاء مرحلة الإثراء وعرض النتيجة؟'))finish()};
+$('prev').onclick=()=>{if(cur>0)show(cur-1)};
+function finish(){
+ if(fin)return;fin=true;clearInterval(tid);foot.style.display='none';const nv=$('nav');if(nv)nv.remove();timer.textContent='';
+ let sc=0,pts=0,res='';
+ Q.forEach((q,i)=>{const ok=q.p.every((p,j)=>ans[i][j]===p.a);if(ok){sc++;pts+=W[i]}res+=ok?'1':'0'});
+ last={pts,sc,res,secs:Math.min(TOTAL,TOTAL-Math.max(left,0))};msg='';
+ send({name,score:pts,correct:sc,res,secs:last.secs,at:Date.now()});
+ results('review');
+ setTimeout(async()=>{await loadBoard();celebrate()},SHEET_URL?2500:300);
+}
+function reviewHTML(){
+ return Q.map((q,i)=>{const ok=last.res[i]==='1';
+  return '<div class="rev'+(ok?' ok':'')+'"><b>'+ar(i+1)+') '+(ok?'✔ صحيحة (+'+ar(W[i])+')':'✘ خاطئة')+'</b><div>'+q.t+'</div>'+q.p.map((p,j)=>{const a=ans[i][j],g=a===p.a;return '<div class="pr">'+(p.l?'<span>'+p.l+'</span><br>':'')+'<span class="'+(g?'g':'b')+'">إجابتك: '+(a==null?'لم تجب':p.o[a])+'</span>'+(g?'':' · <span class="g">الصحيح: '+p.o[p.a]+'</span>')+'</div>'}).join('')+(q.n?'<i>'+q.n+'</i>':'')+'</div>'}).join('');
+}
+function results(tab){
+ const L=last;
+ main.innerHTML='<div class="center" style="max-width:760px"><div style="font-size:56px">'+(L.sc>=12?'🌟':L.sc>=8?'👏':'💪')+'</div><h2>أحسنت يا '+esc(name)+'!</h2><div class="score">'+ar(L.pts)+' / ١٠٠</div><p>أجبت صحيحًا عن '+ar(L.sc)+' من '+ar(Q.length)+' سؤالًا · الزمن '+fmt(L.secs)+'</p><div id="cele" class="'+(msg?'cele pop':'')+'">'+msg+'</div><div class="tabs"><button class="opt'+(tab==='review'?' sel':'')+'" id="t1">📋 مراجعة الإجابات</button><button class="opt'+(tab==='board'?' sel':'')+'" id="t2">🏆 لوحة الخبراء</button><button class="opt" id="t3">🔄 إعادة المحاولة</button></div><div id="pane">'+(tab==='review'?reviewHTML():'<h3>🏆 لوحة الخبراء: العشرة الأوائل</h3><div id="board">'+boardHTML()+'</div>')+'</div></div>';
+ $('t1').onclick=()=>results('review');$('t2').onclick=()=>{results('board');loadBoard()};$('t3').onclick=again;
+}
+function again(){fin=false;cur=0;ans=Q.map(q=>q.p.map(()=>null));left=TOTAL;msg='';start();loadBoard()}
+loadBoard();start();
+</script>
+</body>
+</html>
